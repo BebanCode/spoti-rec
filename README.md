@@ -1,6 +1,7 @@
 # 🎵 Spotify Search API 🎧
 
 [![npm version](https://img.shields.io/npm/v/spoti-api-search)](https://www.npmjs.com/package/spoti-api-search)
+[![license](https://img.shields.io/npm/l/spoti-api-search)](https://github.com/michxoo/spoti-api-search/blob/main/LICENSE)
 [![issues](https://img.shields.io/github/issues/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/issues)
 [![stars](https://img.shields.io/github/stars/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/stargazers)
 
@@ -61,3 +62,7 @@ Rekomendasi track: [
 
 Code by michxoo
 [Discord](https://discord.com/users/707254056535588924)
+
+## ⚖️ Lisensi
+
+Distribusi project ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/michxoo/spoti-api-search/blob/main/LICENSE) untuk informasi lebih lanjut.
