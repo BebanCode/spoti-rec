@@ -3,7 +3,6 @@
 [![npm version](https://img.shields.io/npm/v/spoti-api-search)](https://www.npmjs.com/package/spoti-api-search)
 [![issues](https://img.shields.io/github/issues/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/issues)
 [![stars](https://img.shields.io/github/stars/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/stargazers)
-[![github](https://img.shields.io/github/username/michxoo)](https://github.com/username/michxoo)
 
 
 **Spotify Search API** adalah package **Node.js** yang memungkinkan Anda untuk mencari lagu berdasarkan **nama artis** atau **judul lagu** dan memberikan rekomendasi terkait. Hasil pencarian mencakup **link Spotify** dari rekomendasi yang diberikan.
