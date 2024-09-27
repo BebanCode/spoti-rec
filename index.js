@@ -13,9 +13,9 @@ class SpotifyAutoplay {
       const data = await this.spotifyApi.clientCredentialsGrant();
       const accessToken = data.body['access_token'];
       this.spotifyApi.setAccessToken(accessToken);
-      console.log('Token akses berhasil diperbarui');
+      console.log('Token akses berhasil diperbarui!');
     } catch (error) {
-      console.error('Gagal mendapatkan token akses', error);
+      console.error('Gagal mendapatkan token akses!', error);
       throw error;
     }
   }
@@ -33,11 +33,11 @@ class SpotifyAutoplay {
         console.log(`Track ditemukan: ${track.name} oleh ${track.artists[0].name}`);
         return track.id; // Ambil trackId dari hasil pencarian
       } else {
-        console.log('Tidak ada track yang cocok ditemukan');
+        console.log('Tidak ada track yang cocok ditemukan!');
         return null;
       }
     } catch (error) {
-      console.error('Gagal mencari track', error);
+      console.error('Gagal mencari track!', error);
       throw error;
     }
   }
@@ -53,7 +53,7 @@ class SpotifyAutoplay {
 
       return recommendations.body.tracks.map(track => track.external_urls.spotify);
     } catch (error) {
-      console.error('Gagal mendapatkan rekomendasi track', error);
+      console.error('Gagal mendapatkan rekomendasi track!', error);
       throw error;
     }
   }
@@ -69,11 +69,11 @@ class SpotifyAutoplay {
         const recommendations = await this.getTrackRecommendations(trackId);
         return recommendations;
       } else {
-        console.log('Tidak dapat menemukan track untuk query yang diberikan.');
+        console.log('Tidak dapat menemukan track untuk query yang diberikan!.');
         return [];
       }
     } catch (error) {
-      console.error('Gagal mendapatkan rekomendasi berdasarkan judul track', error);
+      console.error('Gagal mendapatkan rekomendasi berdasarkan judul track!', error);
       throw error;
     }
   }

@@ -1,40 +1,55 @@
-# Spotify Search API
+# 🎵 Spotify Search API 🎧
 
-Spotify Search API adalah package Node.js untuk mencari track berdasarkan nama artis atau judul track, kemudian memberikan rekomendasi track terkait dan menghasilkan link Spotify dari track-track rekomendasi tersebut. Package ini menggunakan **Client Credentials Flow** dari Spotify untuk mendapatkan akses token.
+[![npm version](https://img.shields.io/npm/v/spoti-search-api)](https://www.npmjs.com/package/spoti-searcg-api)
+[![issues](https://img.shields.io/github/issues/username/michxoo)](https://github.com/username/michxoo/issues)
+[![stars](https://img.shields.io/github/stars/username/michxoo)](https://github.com/username/michxoo/stargazers)
+[![github](https://img.shields.io/github/username/michxoo)](https://github.com/username/michxoo)
 
-## Fitur
 
-- Mencari track berdasarkan nama artis atau judul lagu.
-- Mendapatkan rekomendasi track berdasarkan track yang ditemukan.
-- Mengembalikan link Spotify dari track rekomendasi.
+**Spotify Search API** adalah package **Node.js** yang memungkinkan Anda untuk mencari lagu berdasarkan **nama artis** atau **judul lagu** dan memberikan rekomendasi terkait. Hasil pencarian mencakup **link Spotify** dari rekomendasi yang diberikan.
 
-## Prasyarat
+## ✨ Fitur Utama
 
-Sebelum menggunakan package ini, Anda perlu:
-1. Mendaftar aplikasi di [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) untuk mendapatkan `client_id` dan `client_secret`.
-2. Menginstal Node.js di komputer Anda.
+- 🔍 **Cari Lagu**: Mencari track berdasarkan nama artis atau judul lagu.
+- 🎶 **Rekomendasi Otomatis**: Mendapatkan rekomendasi track berdasarkan hasil pencarian.
+- 🔗 **Spotify Links**: Mengembalikan tautan langsung ke track rekomendasi di Spotify.
 
-## Instalasi
-   ```bash
-   npm install spoti-api-search
-   ```
+## ⚙️ Prasyarat
 
-# Penggunaan
+Sebelum menggunakan package ini, Anda memerlukan:
+1. **Akun Developer Spotify**: Daftar di [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) untuk mendapatkan `client_id` dan `client_secret`.
+2. **Node.js**: Pastikan Node.js sudah terinstal di komputer Anda.
+
+## 🚀 Instalasi
+
+Instal package ini menggunakan npm:
+
+```bash
+npm install spoti-api-search
+```
+
+## 🛠️ Penggunaan
+
+Berikut ini contoh sederhana cara menggunakan **Spotify Search API**:
+
 ```javascript
-   const SpotifyAutoplay = require('spoti-api-search');
-   
+const SpotifyAutoplay = require('spoti-api-search');
+
 const spotifyAutoplay = new SpotifyAutoplay('client_id', 'client_secret');
 
 (async () => {
   const query = 'Henry Moodie - drunk text';
-
+  
   const recommendations = await spotifyAutoplay.getRecommendationsFromTrackName(query);
 
   console.log('Rekomendasi track:', recommendations);
 })();
 ```
 
-# Reseult track
+## 📀 Hasil Rekomendasi Track
+
+Hasil yang diperoleh berupa link Spotify dari track yang direkomendasikan:
+
 ```bash
 Rekomendasi track: [
   'https://open.spotify.com/track/xxxxxxxxxxxxxxxx',
@@ -43,5 +58,7 @@ Rekomendasi track: [
 ]
 ```
 
-# Code by: michxoo.
-[Discord michxo.](https://discord.com/users/https://discord.com/users/707254056535588924)
+## 🧑‍💻 Dikembangkan Oleh
+
+Code by michxoo
+[Discord](https://discord.com/users/707254056535588924)
