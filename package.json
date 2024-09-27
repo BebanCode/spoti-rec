@@ -1,7 +1,7 @@
 {
-  "name": "spotify-autoplay",
+  "name": "spoti-api-search",
   "version": "1.0.0",
-  "description": "A Spotify Autoplay Bot package that fetches track recommendations from Spotify",
+  "description": "A Spotify API package that fetches track recommendations from Spotify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

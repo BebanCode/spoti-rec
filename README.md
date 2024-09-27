@@ -1,6 +1,6 @@
-# Spotify Autoplay Bot
+# Spotify Search API
 
-Spotify Autoplay Bot adalah package Node.js untuk mencari track berdasarkan nama artis atau judul track, kemudian memberikan rekomendasi track terkait dan menghasilkan link Spotify dari track-track rekomendasi tersebut. Package ini menggunakan **Client Credentials Flow** dari Spotify untuk mendapatkan akses token.
+Spotify Search API adalah package Node.js untuk mencari track berdasarkan nama artis atau judul track, kemudian memberikan rekomendasi track terkait dan menghasilkan link Spotify dari track-track rekomendasi tersebut. Package ini menggunakan **Client Credentials Flow** dari Spotify untuk mendapatkan akses token.
 
 ## Fitur
 
@@ -16,17 +16,17 @@ Sebelum menggunakan package ini, Anda perlu:
 
 ## Instalasi
    ```bash
-   npm install spotify-autoplay
+   npm install spoti-api-search
    ```
 
 # Penggunaan
 ```javascript
-   const SpotifyAutoplay = require('spotify-autoplay');
+   const SpotifyAutoplay = require('spoti-api-search');
    
 const spotifyAutoplay = new SpotifyAutoplay('client_id', 'client_secret');
 
 (async () => {
-  const query = 'Nirvana - Smells Like Teen Spirit';
+  const query = 'Henry Moodie - drunk text';
 
   const recommendations = await spotifyAutoplay.getRecommendationsFromTrackName(query);
 
@@ -42,3 +42,6 @@ Rekomendasi track: [
   ...
 ]
 ```
+
+# Code by: michxoo.
+[Discord michxo.](https://discord.com/users/https://discord.com/users/707254056535588924)
