@@ -25,7 +25,7 @@ Sebelum menggunakan package ini, kamu memerlukan:
 Instal package ini menggunakan npm:
 
 ```bash
-npm install spoti-api-search
+npm install spoti-rec
 ```
 
 ## 🛠️ Penggunaan
