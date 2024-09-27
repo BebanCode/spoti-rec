@@ -1,0 +1,15 @@
+{
+  "name": "spotify-autoplay",
+  "version": "1.0.0",
+  "description": "A Spotify Autoplay Bot package that fetches track recommendations from Spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "michxoo",
+  "license": "MIT",
+  "dependencies": {
+    "spotify-web-api-node": "^5.0.2",
+    "axios": "^0.21.1"
+  }
+}
