@@ -1,8 +1,8 @@
 # 🎵 Spotify Search API 🎧
 
-[![npm version](https://img.shields.io/npm/v/spoti-search-api)](https://www.npmjs.com/package/spoti-searcg-api)
-[![issues](https://img.shields.io/github/issues/username/michxoo)](https://github.com/username/michxoo/issues)
-[![stars](https://img.shields.io/github/stars/username/michxoo)](https://github.com/username/michxoo/stargazers)
+[![npm version](https://img.shields.io/npm/v/spoti-api-search)](https://www.npmjs.com/package/spoti-api-search)
+[![issues](https://img.shields.io/github/issues/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/issues)
+[![stars](https://img.shields.io/github/stars/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/stargazers)
 [![github](https://img.shields.io/github/username/michxoo)](https://github.com/username/michxoo)
 
 
