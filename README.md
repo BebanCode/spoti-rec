@@ -1,12 +1,12 @@
 # 🎵 Spotify Search API 🎧
 
-[![npm version](https://img.shields.io/npm/v/spoti-api-search)](https://www.npmjs.com/package/spoti-api-search)
-[![license](https://img.shields.io/npm/l/spoti-api-search)](https://github.com/michxoo/spoti-api-search/blob/main/LICENSE)
-[![issues](https://img.shields.io/github/issues/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/issues)
-[![stars](https://img.shields.io/github/stars/michxoo/spoti-api-search)](https://github.com/michxoo/spoti-api-search/stargazers)
+[![npm version](https://img.shields.io/npm/v/spoti-rec)](https://www.npmjs.com/package/spoti-rec)
+[![license](https://img.shields.io/npm/l/spoti-rec)](https://github.com/michxoo/spoti-rec/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/michxoo/spoti-rec)](https://github.com/michxoo/rec/issues)
+[![stars](https://img.shields.io/github/stars/michxoo/spoti-rec)](https://github.com/michxoo/spoti-rec/stargazers)
 
 
-**Spotify Search API** adalah package **Node.js** yang memungkinkan Anda untuk mencari lagu berdasarkan **nama artis** atau **judul lagu** dan memberikan rekomendasi terkait. Hasil pencarian mencakup **link Spotify** dari rekomendasi yang diberikan.
+**Spotify Rec** adalah package **Node.js** yang memungkinkan kamu untuk mencari lagu berdasarkan **nama artis** atau **judul lagu** dan memberikan rekomendasi terkait. Hasil pencarian mencakup **link Spotify** dari rekomendasi yang diberikan.
 
 ## ✨ Fitur Utama
 
@@ -16,9 +16,9 @@
 
 ## ⚙️ Prasyarat
 
-Sebelum menggunakan package ini, Anda memerlukan:
+Sebelum menggunakan package ini, kamu memerlukan:
 1. **Akun Developer Spotify**: Daftar di [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) untuk mendapatkan `client_id` dan `client_secret`.
-2. **Node.js**: Pastikan Node.js sudah terinstal di komputer Anda.
+2. **Node.js**: Pastikan Node.js sudah terinstal di komputermu.
 
 ## 🚀 Instalasi
 
@@ -30,10 +30,10 @@ npm install spoti-api-search
 
 ## 🛠️ Penggunaan
 
-Berikut ini contoh sederhana cara menggunakan **Spotify Search API**:
+Berikut ini contoh sederhana cara menggunakan **Spotify Rec**:
 
 ```javascript
-const SpotifyAutoplay = require('spoti-api-search');
+const SpotifyAutoplay = require('spoti-rec');
 
 const spotifyAutoplay = new SpotifyAutoplay('client_id', 'client_secret');
 
@@ -65,4 +65,4 @@ Code by michxoo
 
 ## ⚖️ Lisensi
 
-Distribusi project ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/michxoo/spoti-api-search/blob/main/LICENSE) untuk informasi lebih lanjut.
+Distribusi project ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/michxoo/spoti-rec/blob/main/LICENSE) untuk informasi lebih lanjut.

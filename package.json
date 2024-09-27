@@ -1,5 +1,5 @@
 {
-  "name": "spoti-api-search",
+  "name": "spoti-rec",
   "version": "1.0.0",
   "description": "A Spotify API package that fetches track recommendations from Spotify",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michxoo/spoti-api-search"
+    "url": "https://github.com/michxoo/spoti-rec"
   },
   "author": "michxoo",
   "license": "MIT",
